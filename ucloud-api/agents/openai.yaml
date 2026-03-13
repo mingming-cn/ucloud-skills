@@ -1,0 +1,4 @@
+interface:
+  display_name: "UCloud API"
+  short_description: "Invoke UCloud APIs through the Python SDK"
+  default_prompt: "Use $ucloud-api to inspect parameters and invoke a UCloud API through the Python SDK."
