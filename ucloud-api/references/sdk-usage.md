@@ -24,7 +24,10 @@ Use these environment variables by default:
 - `UCLOUD_ZONE`
 - `UCLOUD_BASE_URL`
 
-Do not hardcode credentials in command lines or files unless the user explicitly asks and understands the risk.
+Treat shell commands, commentary, and tool call payloads as potentially visible.
+Do not place `UCLOUD_PUBLIC_KEY` or `UCLOUD_PRIVATE_KEY` directly in command strings, CLI flags, logs, plans, or user-facing summaries.
+Prefer environment variables or another non-logged local mechanism for credential injection.
+Use `--public-key` and `--private-key` only as a last-resort local override, and never echo their values back to the user.
 
 ## Parameter handling
 

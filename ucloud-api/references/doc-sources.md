@@ -12,7 +12,7 @@ Use these sources in order when the SDK alone does not provide enough informatio
 ## Official entry points
 
 - SDK repository: `https://github.com/ucloud/ucloud-sdk-python3`
-- API documentation: `https://docs.ucloud.cn/api`
+- API documentation: `https://github.com/UCloudDoc-Team/api`
 - Product documentation: `https://docs.ucloud.cn/`
 - Tools and SDK overview: `https://docs.ucloud.cn/tools`
 
